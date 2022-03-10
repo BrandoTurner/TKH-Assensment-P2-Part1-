@@ -9,15 +9,15 @@ export default function App() {
     <div className='App'>
       <div className= 'links'>
         <nav>
-          <Navlink to={"/"}>Landing</Navlink>
-          <NavLink to={"/Cats"}>Cats</NavLink>
-          <Navlink to={"/Dogs"}>Dogs</Navlink>
+          <NavLink to={"/"}>Landing</NavLink>
+          <NavLink to={"/Cat"}>Cats</NavLink>
+          <NavLink to={"/Dog"}>Dogs</NavLink>
         </nav>
         </div>
         <Routes>
           <Route path="/" element={<Landing/>}/>
-          <Route path="/Cats" element={<Cats/>}/>
-          <Route path="/Dogs" element={<Dogs/>}/>
+          <Route path="/Cat" element={<Cat/>}/>
+          <Route path="/Dog" element={<Dog/>}/>
         </Routes>
 
       </div>
